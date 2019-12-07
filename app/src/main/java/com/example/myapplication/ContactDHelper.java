@@ -22,8 +22,8 @@ public class ContactDHelper extends SQLiteOpenHelper {
         db.execSQL(
             "CREATE TABLE "+ Customer.TABLE_NAME
                     + " (" + COLUMN_ID + " INTEGER PRIMARY KEY, "
-                    + Customer.COLUMN_NAME + "TEXT, "
-                    + Customer.COLUMN_NUMBER + "TEXT)"
+                    + Customer.COLUMN_NAME + " TEXT, "
+                    + Customer.COLUMN_NUMBER + " TEXT)"
         );
     }
 
